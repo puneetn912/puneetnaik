@@ -11,7 +11,7 @@ class Home extends Component {
           &nbsp;
           <a href="https://twitter.com/Puneet_Naik" style={{color: 'white'}}><i className="fab fa-twitter" style={{fontSize: '2em'}} /></a>
           &nbsp;
-          <a href="https://github.com/#/" style={{color: 'white'}}><i className="fab fa-github" style={{fontSize: '2em'}} /></a>
+          <a href="https://github.com/puneetn912/puneetnaik" style={{color: 'white'}}><i className="fab fa-github" style={{fontSize: '2em'}} /></a>
           &nbsp;
           <a href="https://medium.com/@#/" style={{color: 'white'}}><i className="fab fa-medium" style={{fontSize: '2em'}} /></a>
         </div>
