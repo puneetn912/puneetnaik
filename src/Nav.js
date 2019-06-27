@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const routes = [
-  { to: '/', label: 'Home' },
+  { to: '/', label: 'Puneet Naik' },
   { to: '/about', label: 'About' },
-  { to: '/author', label: 'Author' },
-  { to: '/puneet', label: 'Puneet' }
+  { to: '/author', label: 'Projects' },
+  { to: '/puneet', label: 'More' }
 ];
 
 const Nav = () => {
@@ -13,7 +13,7 @@ const Nav = () => {
     return <NavLink strict exact to={to} key={to}>{label}</NavLink>}
   )
 
-  return <nav className="ml24">{ links }</nav>;
+  return <nav>{ links }</nav>;
 }
 
 export default Nav
