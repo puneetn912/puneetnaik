@@ -104,13 +104,9 @@ p {
     font-size: 15px;
   }
   .ml24{
-    margin-left: unset !important;
+    margin-left: -13% !important;
   }
 }
-  .ml24{
-    margin-left: 26%
-  }
-
 
 @media only screen and (max-width: 100px) {
   h1 {

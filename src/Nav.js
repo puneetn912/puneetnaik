@@ -13,7 +13,7 @@ const Nav = () => {
     return <NavLink strict exact to={to} key={to}>{label}</NavLink>}
   )
 
-  return <nav>{ links }</nav>;
+  return <nav className="ml24">{ links }</nav>;
 }
 
 export default Nav
