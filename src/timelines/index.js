@@ -1,6 +1,7 @@
 import { TimelineMax as Timeline, Power1 } from 'gsap';
 
 const getDefaultTimeline = (node, delay) => {
+  console.log(node, 'node')
   const timeline = new Timeline({ paused: true });
   const content = node.querySelector('.content');
   const contentInner = node.querySelector('.content--inner');
