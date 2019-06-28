@@ -72,7 +72,7 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 45%;
   padding: 0 10px;
   width: 100%;
   text-align: center;
@@ -143,3 +143,89 @@ p {
     height: 4px;
   }
 }
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+  color: crimson;
+  font-size: 4em;
+}
+
+h3{
+  text-align: center;
+  color: green;
+  font-size: 2em;
+}
+
+
+footer {
+  background: linear-gradient(to right, #eeeeee 0%,#cccccc 100%);
+  height: 100px;
+  width: 58%;
+  position: fixed;
+  left: 20%;
+  /*top: 65%;*/
+  bottom: 0;
+  border-radius: 20px;
+}
+
+
+.icon-settings {
+  font-size: 80px;
+  margin-left: 11px;
+  margin-top: 10px
+}
+
+span>i {
+  transition: all 0.2s ease-out;
+}
+span>i:hover {
+  font-size: 100px;
+  margin-top: -8px;
+}
+
+/* Tooltip starts */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Tooltip Ends */
+
