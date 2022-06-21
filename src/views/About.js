@@ -8,7 +8,7 @@ class About extends Component {
         <div className="content">
           <div className="content--inner">
             
-          <p>“You're not the only one cursed with knowledge, Mr.Stark”—Thankos</p>
+          <p>No data found!</p>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ class Author extends Component {
         <div className="content">
           <div className="content--inner">
             <p className="content--excerpt"></p>
-            <p>“Murphy’s Law doesn’t meant that something bad will happen. It means that whatever can happen, will happen.”—Cooper</p>
+            <p>No data found</p>
           </div>
         </div>
       </div>

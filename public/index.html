@@ -42,6 +42,7 @@
       window.loadPromise = new Promise(function(resolve) {
         window.addEventListener('load', resolve);
       });
+      
     </script>
   </head>
   <body style="overflow: overlay" id="body">
@@ -59,5 +60,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      document.getElementById('publish-banner').style.display = 'none';
+    </script>
   </body>
 </html>

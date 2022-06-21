@@ -2,7 +2,7 @@
   "name": "react-view-transition-example",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeremenichelli.github.io/react-view-transition-example",
+  "homepage": "https://puneetnaik.web.app/",
   "dependencies": {
     "gsap": "^2.0.1",
     "react": "^16.4.1",

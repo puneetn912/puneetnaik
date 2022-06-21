@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const routes = [
   { to: '/', label: 'Puneet Naik' },
+  { to: '/puneet', label: 'Resume' },
   { to: '/about', label: 'About' },
   { to: '/author', label: 'Projects' },
-  { to: '/puneet', label: 'More' }
 ];
 
 const Nav = () => {
