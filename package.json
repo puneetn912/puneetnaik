@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://puneetnaik.web.app/",
   "dependencies": {
-    "gsap": "^2.0.1",
+    "gsap": "^3.6.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-osx-dock": "^1.0.0",
